@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'KCC-Ganpan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: lightgray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todotop{
+  width: 100%;
+}
+.date{
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.App{
+  background-color: white;
+  width: 40vw;
+  height: 80vh;
+  margin-top: 10vh;
+  margin-left: 30vw;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 5px 5px 5px 5px gray;
+
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+ol{
+  padding: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.check{
+  width: 2vw;
+  display: inline-block;
+  cursor: pointer;
+}
+.liked {
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+
+.title{
+  width: 90%;
+  height: 40px;
+  font-size: 130%;
+  margin-left: 5%;
+}
+.titlebutton{
+  display: none;
+}
+.navigation{
+  margin-left: 30px;
+  font-size: 130%;
+  
+}
+.navitap{
+  width: 100%;
+  height: 60%;
+  overflow: scroll;
+}
+
+.navi{
+  width: 80%;
+  display: inline-block;
+}
+
+.createbutton {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  font-size: 200%;
+  background: #38d9a9;
+  border: none;
+  color: white;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  left: 47vw;
+  transition: transform 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.createbutton.rotate {
+  transform: rotate(45deg);
+  background: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.createbutton:hover{
+  opacity: 0.7;
+}
+.deletebutton{
+ display: inline-block;
+ border: none;
+ text-align: center;
+ font-size: 100%;
+ background-color: white;
+ cursor: pointer;
+ opacity: 0.3;
+
 }
