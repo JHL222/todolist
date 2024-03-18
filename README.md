@@ -1,6 +1,6 @@
 <div align="center">
   
-# 1. &nbsp;🖥️ Todo List
+# 1. Todo List
 
 ### 1-2. 개발기간
 
@@ -31,5 +31,9 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
 
 ***
+
+# 3. 화면구성
+
+<img width="500" alt="스크린샷 2024-03-18 19 30 58" src="https://github.com/JHL222/todolist/assets/160108023/9bdaa72b-3ace-45fd-ae1c-7128f85bed88">
 
 </div>
