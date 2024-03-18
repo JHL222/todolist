@@ -36,4 +36,11 @@
 
 <img width="500" alt="스크린샷 2024-03-18 19 30 58" src="https://github.com/JHL222/todolist/assets/160108023/9bdaa72b-3ace-45fd-ae1c-7128f85bed88">
 
+***
+
+# 4. 주요 기능
+
+∙ 할 일 추가 및 삭제 기능
+∙ 완료한 일 체크 기능
+
 </div>
