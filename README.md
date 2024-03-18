@@ -1,6 +1,6 @@
 <div align="center">
   
-# 1. 🖥️ Todo List
+# 1. &nbsp;🖥️ Todo List
 
 ### 1-2. 개발기간
 
